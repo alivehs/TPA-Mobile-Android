@@ -1,0 +1,10 @@
+Algoritma Aplikasi :
+
+1. User membuka aplikasi 
+2. User memilih menu yang disediakan 
+. Sebaiknya jika user belum pernah latihan TPA memilih menu Tips and Trik. 
+. Jika sudah selesai mempelajari Tips and Trik pilih back untuk kembail ke Menu Utama.  
+. Jika user menginginkan untuk latihan TPA maka buka menu Latihan yang terbagi dalam tiga pilihan yaitu test verbal, test numerik dan test logika. 
+. user mengerjakan soal sesuai dengan salah satu pilihan latihan yang dipilih. 
+. Jika user selesai mengerjakan salah satu latihan maka user kembali ke menu Latihan. 
+. Jika user menginginkan kembali ke menu utama maka user memilih Menu Utama, maka user akan langsung masuk 4 pilihan menu utama. 
