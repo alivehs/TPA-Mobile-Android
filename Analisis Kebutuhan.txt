@@ -1,0 +1,24 @@
+Analisis Kebutuhan
+Analisis Kebutuhan:
+Input > Proses > Output
+
+#Input:
+1. User mampu memasukan pilihan jawaban dari soal TPA yang telah tersedia
+
+Proses
+Sistem menganalisa tentang jawaban yang diinputkan oleh user dan memutuskan akhir jawaban
+Output
+Sistem menampilkan hasil jawaban user, apakah benar atau salah
+Jika jawaban benar akan lanjut ke soal berikutnya
+Jika jawaban salah maka user akan terus lanjut ke soal selanjutnya, hal ini dilakukan untuk mengefisienkan produk, dimana produk ini dibuat hanya untuk latihan mengenai soal TPA dan feedback dari produk ini adalah keberhasilan user untuk melatih kemampuan potensi akademiknya saja
+Kebutuhan akan securitas >> a) user tidak bisa menghetahui tentang jawaban soal TPA yang benar sebelum dia membuka dan 
+mengerjakan soal TPA yang telah disediakan.
+b) soal yang disediakan disajikan secara random, hal ini akan diusahakan oleh emmploye
+hal ini untuk menghindari penghafalan soal yang ada oleh user sehingga tidak menimbulkan
+gejala tidak berfikir bagi user karena tujuan dari aplikasi ini adalah membuat user paham
+dan mengerti untuk mengerjakan model soal TPA, bukan menghafal soal dan jawaban
+
+Kebutuhan akan control >> a) disediakan menu help untuk membantu user menjalankan aplikasi TPA (intruksi dan tutorial)
+b) disediakan tampilan penampil skor user yang disajikan secantik dan seapresiasif mungkin
+hal ini disediakan untuk memotivasi user untuk terus mencoba aplikasi ini dan 
+menambah semangat untuk belajar TPA
