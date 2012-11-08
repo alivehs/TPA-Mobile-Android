@@ -1,0 +1,28 @@
+TPA (Test Potensi Akademik) merupakan test yang bertujuan untuk mengetahui bakat dan kemampuan seseorang di bidang keilmuan (akademis). Test ini juga sering dihubungkan dengan tingkat kecerdasan seseorang.
+
+TPA Mobile Android, merupakan TPA yang dikemas dalam sebuah mobile phone yang didesign se-sederhana mungkin sehingga dapat mempermudah user untuk mengasah kemampuan dimana saja dan kapan saja melalui sebuah phone.
+
+Mengapa TPA Mobile ?
+Software TPA Mobile ini bertujuan untuk memudahkan user mengerjakan test potensi akademik secra praktis, yaitu menggunakan mobile phone Android tanpa harus menggunakan buku serta alat tulis. 
+Dengan demikian user dapat meningkatkan kemampuan verbal, numerik, logika serta spasialnya.
+
+Fitur :
+Terdapat 4 menu, yaitu :
+• Tips n’ Trik, berisi hal yang harus diperhatikan dalam mengerjakan Test Potensi Akademik. 
+• Latihan, berisi tiga latihan TPA yaitu :
+1. Test Verbal / Bahasa
+2. Test Numerik / Angka
+3. Test Logika
+• Help / Bantuan, berisi tentang bantuan penggunaan aplikasi TPA Mobile 
+• Tentang, berisi informasi mengenai aplikasi dan juga pembuat aplikasi.
+
+Manfaat :
+1. Dapat digunakan dimana saja dan kapan saja dengan bantuan Mobile Phone Android
+2. Dapat membantu user latihan TPA 
+3. Dapat mengarahkan user untuk mengerjakan TPA dengan baik dan benar.
+
+Kemampuan :
+Aplikasi ini dapat digunakan untuk latihan test potensi akademik dengan sekaligus mengetahui kunci jawaban dari soal, sehingga user dapat mengetahui jawaban yang benar dan yang salah.
+
+NB:
+Mengenai hal yang terdapat diatas dapat berubah sewaktu-waktu seiring dengan pengembangan aplikasi.
