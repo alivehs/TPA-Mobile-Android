@@ -1,0 +1,33 @@
+1. Communication : 
+Minggu ke 2 September:
+ - Pemberian Project
+Kegiatan : Diskusi project yang akan dibuat
+Hasil : Membuat aplikasi TPA (Test Potensi Akademik) Mobile berbasis 
+Android. 
+ 
+
+2. Planning :
+Minggu ke 3 September
+Kegiatan : Membuat design isi aplikasi 
+Hasil : Terdapat 4 menu yaitu : Tips and Trik, Latihan, Help/Bantuan, dan Tentang. 
+
+Minggu ke 4 September
+Kegiatan: Membuat analysist kebutuhan, menggunakan aplikasi pengembangan untuk android.
+Hasil: Menginstal Eclipse dan SDK Android.  
+
+
+3. Modelling 
+Minggu ke 1 Oktober
+Kegiatan: Membuat algoritma aplikasi. Mencari referensi mengenai aplikasi.
+hasil: algoritma mulai dari user membuka aplikasi sampai user menutup aplikasi. Referensi mengenai isi latihan. 
+
+Minggu ke 2 oktober 
+Kegiatan: Membuat design aplikasi. 
+Hasil: Warna utama aplikasi Biru. 
+
+Minggu ke 3 Oktober :
+Kegiatan: Melanjutkan design aplikasi
+Hasil: Peletakan menu-menu. 
+
+
+
