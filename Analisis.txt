@@ -1,0 +1,15 @@
+Analisis Kebutuhan
+
+Kebutuhan Fungsional:
+1. inputan merupakan masukan pilihan jawaban user
+2. proses dilakukan oleh sistem untuk menganalisa jawaban yang diinputkan oleh user
+3. output program merupakan tampilan hasil jawaban user (benar atau salah)
+4. sistem dapat melakukan dan menampilkan hasil dan skor untuk jawaban user
+5. sistem menampilkan beberapa soal untuk user
+
+Kebutuhan non Fungsional:
+1. aplikasi ini dapat hanya dapat digunakan pada platform android (versi 2.2 ke atas)
+2. skor daan hasil jawaban akan keluar setelah user menjawab soal
+3. proteksi jawaban sehingga user tidak bisa mengaksesnya
+4. disediakan menu help untuk membantu user menjalankan aplikasi TPA (intruksi dan tutorial)
+
