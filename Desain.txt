@@ -1,0 +1,13 @@
+Desain aplikasi
+
+1. Menu Utama
+pada menu utama akan terdapat 5 pilihan menu, yaitu
+   - Mengenal TPA : pada menu ini berisi penjelasan mengenai tes potensi akademik
+   - Tips & Trik : berisi tips-tips dalam mengerjakan tes potensi akademik, 
+                   di dalam menu tips dan trik ini terbagi ke dalam beberapa 
+                   kategori lagi tentang tips dan trik sesuai jenis tes potensi akademik.
+   - Latihan Soal : pada menu latihan soal disini berisi soal-soal tes potensi akademik 
+                    yang terbagi dalam beberapa kategori misal: tes soal sinonim, tes soal antonim, .. dst
+   - Petunjuk : menu ini berisi petunjuk kepada pengguna bagaimana menggunakan aplikasi TPA mobile android ini,
+                pengguna yang akan menggunakan aplikasi ini dapat membaca langkah-langkah menggunakan aplikasi pada menu ini.
+   - Tentang : menu ini berisi informasi pengembang aplikasi ini
