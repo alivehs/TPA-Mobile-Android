@@ -1,0 +1,9 @@
+Kategori Soal TPA (fix):
+1. TPA Sinonim
+2. TPA Anonim
+3. TPA Deret Angka
+4. TPA Deret Huruf
+5. TPA Analogi
+
+Tiap kategori soal akan menampilkan rata-rata 20 soal dalam waktu
+45 menit yak berarti tiap soal memerlukan waktu 1,5 menit dalam pengerjaanya.
