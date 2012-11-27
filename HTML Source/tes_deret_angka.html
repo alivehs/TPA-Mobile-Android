@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TPA Mobile Andorid</title>
+<link rel="stylesheet" href="./style/style.css" type="text/css">
+<script type="text/javascript" src="./js/jwbn_deret_angka.js"></script>
+</head>
+
+<body>
+<div class="main">
+<center><img src="./images/logo1.png" width="100%"></center>
+</div>
+
+<div class="header"><center><h2 style="font-size:20px;">Tes Deret Angka</b></h1></center></div>
+<div class="status"></div>
+<div class="msg">
+<form id="quiz">
+<div id="timer" class="timer">
+sisa waktu :<input style="text-align:center; color:red;font-weight: bold;" type="text" size="5" name="waktu" disabled>
+</div>
+
+<div id="soal1" class="soal">
+1. <b>625 - 1296 - 25 - 36 - 5 - ...</b>
+<ul class="list">
+<input type="radio" name="q1" value="a">8
+<br><input type="radio" name="q1" value="b">4
+<br><input type="radio" name="q1" value="c">6
+<br><input type="radio" name="q1" value="d">10
+<br><input type="radio" name="q1" value="e">14
+</ul>
+</div>
+
+<div id="soal2" class="soal">
+2. <b>50 - 40 - 100 - 90 - 50 - ...</b>
+<ul class="list">
+<input type="radio" name="q2" value="a">140
+<br><input type="radio" name="q2" value="b">100
+<br><input type="radio" name="q2" value="c">80
+<br><input type="radio" name="q2" value="d">60
+<br><input type="radio" name="q2" value="e">50
+</ul>
+</div>
+
+<div id="soal3" class="soal">
+3. <b>26 27 29 32 ... ... 40 38 35 31 26</b>
+<ul class="list">
+<input type="radio" name="q3" value="a">34 dan 40
+<br><input type="radio" name="q3" value="b">40 dan 36
+<br><input type="radio" name="q3" value="c">41 dan 30
+<br><input type="radio" name="q3" value="d">36 dan 41
+<br><input type="radio" name="q3" value="e">36 dan 41
+</ul>
+</div>
+
+<div id="soal4" class="soal">
+4. <b>... ... 41 33 26 20 15 11</b>
+<ul class="list">
+<input type="radio" name="q4" value="a">34 dan 40
+<br><input type="radio" name="q4" value="b">55 dan 45
+<br><input type="radio" name="q4" value="c">60 dan 55
+<br><input type="radio" name="q4" value="d">60 dan 50
+<br><input type="radio" name="q4" value="e">65 dan 55
+</ul>
+</div>
+
+<div id="soal5" class="soal">
+5. <b>1 0 8 3 3 7 5 6 6 7 9 5 9 12 4 ... ... ... </b>
+<ul class="list">
+<input type="radio" name="q5" value="a">1, 11, dan 15
+<br><input type="radio" name="q5" value="b">1, 15, dan 16
+<br><input type="radio" name="q5" value="c">11, 15, dan 3
+<br><input type="radio" name="q5" value="d">11, 2, dan 15
+<br><input type="radio" name="q5" value="e">15, 11, dan 1
+</ul>
+</div>
+
+<div id="soal6" class="soal">
+6. <b> 3 7 11 6 14 22 12 ... ...</b>
+<ul class="list">
+<input type="radio" name="q6" value="a">24 dan 41
+<br><input type="radio" name="q6" value="b">26 dan 42
+<br><input type="radio" name="q6" value="c">27 dan 43
+<br><input type="radio" name="q6" value="d">28 dan 44
+<br><input type="radio" name="q6" value="e">30 dan 50
+</ul>
+</div>
+
+<div id="soal7" class="soal">
+7. <b> 1 7 3 14 9 28 ... ...</b>
+<ul class="list">
+<input type="radio" name="q7" value="a">16 dan 44
+<br><input type="radio" name="q7" value="b">20 dan 48
+<br><input type="radio" name="q7" value="c">22 dan 50
+<br><input type="radio" name="q7" value="d">24 dan 52
+<br><input type="radio" name="q7" value="e">27 dan 56
+</ul>
+</div>
+
+<div id="soal8" class="soal">
+8. <b> 93 94 91 92 89 90 87 ... ... </b>
+<ul class="list">
+<input type="radio" name="q8" value="a">87 dan 84
+<br><input type="radio" name="q8" value="b">88 dan 85
+<br><input type="radio" name="q8" value="c">89 dan 86
+<br><input type="radio" name="q8" value="d">90 dan 87
+<br><input type="radio" name="q8" value="e">91 dan 88
+</ul>
+</div>
+
+<div id="soal9" class="soal">
+9. <b> 114 102 107 95 100 88 93 ... ...</b>
+<ul class="list">
+<input type="radio" name="q9" value="a">83 dan 88
+<br><input type="radio" name="q9" value="b">80 dan 85
+<br><input type="radio" name="q9" value="c">81 dan 86
+<br><input type="radio" name="q9" value="d">82 dan 87
+<br><input type="radio" name="q9" value="e">79 dan 85
+</ul>
+</div>
+
+<div id="soal10" class="soal">
+10. <b> 87 6 92 13 97 20 102 27 ... 34 112 ... </b>
+<ul class="list">
+<input type="radio" name="q10" value="a">107 dan 41
+<br><input type="radio" name="q10" value="b">107 dan 42
+<br><input type="radio" name="q10" value="c">107 dan 43
+<br><input type="radio" name="q10" value="d">107 dan 44
+<br><input type="radio" name="q10" value="e">107 dan 45
+</ul>
+</div>
+
+<div id="soal11" class="soal">
+11. <b>8 8 7 8 6 8 = ... ... </b>
+<ul class="list">
+<input type="radio" name="q11" value="a">8 dan 5
+<br><input type="radio" name="q11" value="b">5 dan 8
+<br><input type="radio" name="q11" value="c">4 dan 8
+<br><input type="radio" name="q11" value="d">8 dan 4
+<br><input type="radio" name="q11" value="e">3 dan 5
+</ul>
+</div>
+
+<div id="soal12" class="soal">
+12. <b>4 5 4 10 4 20 4 ... </b>
+<ul class="list">
+<input type="radio" name="q12" value="a">10
+<br><input type="radio" name="q12" value="b">20
+<br><input type="radio" name="q12" value="c">30
+<br><input type="radio" name="q12" value="d">40
+<br><input type="radio" name="q12" value="e">50
+</ul>
+</div>
+
+<div id="soal13" class="soal">
+13. <b>11 8 9 6 7 ... ... </b>
+<ul class="list">
+<input type="radio" name="q13" value="a">4 dan 5
+<br><input type="radio" name="q13" value="b">5 dan 4
+<br><input type="radio" name="q13" value="c">3 dan 4
+<br><input type="radio" name="q13" value="d">4 dan 3
+<br><input type="radio" name="q13" value="e">2 dan 3
+</ul>
+</div>
+
+<div id="soal14" class="soal">
+14. <b>16 14 28 26 ... ... 100 98 </b>
+<ul class="list">
+<input type="radio" name="q10" value="a">48 dan 40
+<br><input type="radio" name="q14" value="b">49 dan 42
+<br><input type="radio" name="q14" value="c">50 dan 47
+<br><input type="radio" name="q14" value="d">52 dan 50
+<br><input type="radio" name="q14" value="e">55 dan 52
+</ul>
+</div>
+
+<div id="soal15" class="soal">
+15. <b>... 4 7 12 19 28 ...</b>
+<ul class="list">
+<input type="radio" name="q15" value="a">2 dan 38
+<br><input type="radio" name="q15" value="b">3 dan 39
+<br><input type="radio" name="q15" value="c">4 dan 40
+<br><input type="radio" name="q15" value="d">5 dan 41
+<br><input type="radio" name="q15" value="e">6 dan 42
+</ul>
+</div>
+
+<div id="soal16" class="soal">
+16. <b>72 63 55 48 ... 37 33 30 28 ... </b>
+<ul class="list">
+<input type="radio" name="q16" value="a">40 dan 24
+<br><input type="radio" name="q16" value="b">41 dan 26	
+<br><input type="radio" name="q16" value="c">42 dan 27
+<br><input type="radio" name="q16" value="d">42 dan 26
+<br><input type="radio" name="q16" value="e">43 dan 43
+</ul>
+</div>
+
+<div id="soal17" class="soal">
+17. <b>4 6 10 16 ... 34 46 </b>
+<ul class="list">
+<input type="radio" name="q17" value="a">30
+<br><input type="radio" name="q17" value="b">28
+<br><input type="radio" name="q17" value="c">26
+<br><input type="radio" name="q17" value="d">24
+<br><input type="radio" name="q17" value="e">22
+</ul>
+</div>
+
+<div id="soal18" class="soal">
+18. <b>1 4 10 ... 46 94 190 </b>
+<ul class="list">
+<input type="radio" name="q18" value="a">24
+<br><input type="radio" name="q18" value="b">23
+<br><input type="radio" name="q18" value="c">22 
+<br><input type="radio" name="q18" value="d">21
+<br><input type="radio" name="q18" value="e">20
+</ul>
+</div>
+
+
+<div id="soal19" class="soal">
+19. <b>48 39 31 24 18 ... 9 6 4 3 </b>
+<ul class="list">
+<input type="radio" name="q19" value="a">10
+<br><input type="radio" name="q19" value="b">13
+<br><input type="radio" name="q19" value="c">15
+<br><input type="radio" name="q19" value="d">16
+<br><input type="radio" name="q19" value="e">17
+</ul>
+</div>
+
+
+<div id="soal20" class="soal">
+20. <b>52 32 20 12 8 ... 4 </b>
+<ul class="list">
+<input type="radio" name="q20" value="a">7
+<br><input type="radio" name="q20" value="b">6
+<br><input type="radio" name="q20" value="c">5 
+<br><input type="radio" name="q20" value="d">4
+<br><input type="radio" name="q20" value="e">3
+</ul>
+</div>
+
+<div id="divlanjut">
+<center><input class="button" type="button" value=" Lanjut " name="lanjut" onClick="soalLanjut()" /><br></center>
+</div>
+
+<div id="nilai" class="soal">
+<center><font color="red"><b>Hasil Akhir</b></font><br><br>
+Anda menjawab benar <input type="text" class="hasil" size="10"  name="jwBenar" disabled><br>
+Total nilai anda adalah <input id="hasilAkhir"type="text" class="hasil" size="3" name="totNilai" disabled><br><br>
+</div>
+</form>
+</div>
+
+<div class="status"></div>
+
+<div class="footer"><center><h2 style="font-size:13px;">&copy; 2012  Pend. Teknik informatika&trade;<h1></center></div>
+
+<script type="text/javascript">
+timersoal();
+</script>
+</body>
+</html>
