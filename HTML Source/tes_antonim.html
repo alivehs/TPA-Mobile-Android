@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TPA Mobile Andorid</title>
+<link rel="stylesheet" href="./style/style.css" type="text/css">
+<script type="text/javascript" src="./js/jwbn_antonim.js"></script>
+</head>
+
+<body>
+<div class="main">
+<center><img src="./images/logo1.png" width="100%"></center>
+</div>
+
+<div class="header"><center><h2 style="font-size:20px;">Tes Antonim</b></h1></center></div>
+<div class="status"></div>
+<div class="msg">
+<form id="quiz">
+<div id="timer" class="timer">
+sisa waktu :<input style="text-align:center; color:red;font-weight: bold;" type="text" size="5" name="waktu" disabled>
+</div>
+
+<div id="soal1" class="soal">
+1. <b>MEMPAN>< ...</b>
+<ul class="list">
+<input type="radio" name="q1" value="a">Sakit
+<br><input type="radio" name="q1" value="b">Kebal
+<br><input type="radio" name="q1" value="c">Sakti
+<br><input type="radio" name="q1" value="d">Kena
+<br><input type="radio" name="q1" value="e">Lempar
+</ul>
+</div>
+
+<div id="soal2" class="soal">
+2. <b>RUNGUT>< ...</b>
+<ul class="list">
+<input type="radio" name="q2" value="a">Ramah
+<br><input type="radio" name="q2" value="b">Jelas
+<br><input type="radio" name="q2" value="c">Belakang
+<br><input type="radio" name="q2" value="d">Tanduk
+<br><input type="radio" name="q2" value="e">Sungut
+</ul>
+</div>
+
+<div id="soal3" class="soal">
+3. <b>LIMBUNG><  ...</b>
+<ul class="list">
+<input type="radio" name="q3" value="a">Aneh
+<br><input type="radio" name="q3" value="b">Kembung
+<br><input type="radio" name="q3" value="c">Mantap
+<br><input type="radio" name="q3" value="d">Lengkap
+<br><input type="radio" name="q3" value="e">Tegak
+</ul>
+</div>
+
+<div id="soal4" class="soal">
+4. <b>BONCEL>< ...</b>
+<ul class="list">
+<input type="radio" name="q4" value="a">Lugu
+<br><input type="radio" name="q4" value="b">Aneh
+<br><input type="radio" name="q4" value="c">Bagus
+<br><input type="radio" name="q4" value="d">Besar
+<br><input type="radio" name="q4" value="e">Kecil
+</ul>
+</div>
+
+<div id="soal5" class="soal">
+5. <b>BAKHIL>< ...</b>
+<ul class="list">
+<input type="radio" name="q5" value="a">Akil
+<br><input type="radio" name="q5" value="b">Dewasa
+<br><input type="radio" name="q5" value="c">Dermawan
+<br><input type="radio" name="q5" value="d">Remaja
+<br><input type="radio" name="q5" value="e">Balik
+</ul>
+</div>
+
+<div id="soal6" class="soal">
+6. <b>TEGAR>< ...</b>
+<ul class="list">
+<input type="radio" name="q6" value="a">Yakin
+<br><input type="radio" name="q6" value="b">Gigih
+<br><input type="radio" name="q6" value="c">Rapuh
+<br><input type="radio" name="q6" value="d">Kuat
+<br><input type="radio" name="q6" value="e">Nangis
+</ul>
+</div>
+
+<div id="soal7" class="soal">
+7. <b>SUFIKS>< ...</b>
+<ul class="list">
+<input type="radio" name="q7" value="a">Isu
+<br><input type="radio" name="q7" value="b">Preposisi
+<br><input type="radio" name="q7" value="c">Sufi
+<br><input type="radio" name="q7" value="d">Remaja
+<br><input type="radio" name="q7" value="e">Mudah
+</ul>
+</div>
+
+<div id="soal8" class="soal">
+8. <b>TOLAN><... </b>
+<ul class="list">
+<input type="radio" name="q8" value="a">Rata
+<br><input type="radio" name="q8" value="b">Bentol
+<br><input type="radio" name="q8" value="c">Datar
+<br><input type="radio" name="q8" value="d">Handai
+<br><input type="radio" name="q8" value="e">Musuh
+</ul>
+</div>
+
+<div id="soal9" class="soal">
+9. <b>SAHIH>< ...</b>
+<ul class="list">
+<input type="radio" name="q9" value="a">Dusta
+<br><input type="radio" name="q9" value="b">Jujur
+<br><input type="radio" name="q9" value="c">Ilegal
+<br><input type="radio" name="q9" value="d">Palsu
+<br><input type="radio" name="q9" value="e">Sah
+</ul>
+</div>
+
+<div id="soal10" class="soal">
+10. <b>GANGSAL>< ... </b>
+<ul class="list">
+<input type="radio" name="q10" value="a">Bangsal
+<br><input type="radio" name="q10" value="b">Kelas
+<br><input type="radio" name="q10" value="c">Genap
+<br><input type="radio" name="q10" value="d">Aneh
+<br><input type="radio" name="q10" value="e">Ganjil
+</ul>
+</div>
+
+<div id="soal11" class="soal">
+11. <b>LALIM ><... </b>
+<ul class="list">
+<input type="radio" name="q11" value="a">Alim
+<br><input type="radio" name="q11" value="b">Taat
+<br><input type="radio" name="q11" value="c">Bengis
+<br><input type="radio" name="q11" value="d">Jahat
+<br><input type="radio" name="q11" value="e">Belas Kasih
+</ul>
+</div>
+
+<div id="soal12" class="soal">
+12. <b>STABIL >< ... </b>
+<ul class="list">
+<input type="radio" name="q12" value="a">Goyah
+<br><input type="radio" name="q12" value="b">Lurus
+<br><input type="radio" name="q12" value="c">Tetap
+<br><input type="radio" name="q12" value="d">Kukuh
+<br><input type="radio" name="q12" value="e">Statis
+</ul>
+</div>
+
+<div id="soal13" class="soal">
+13. <b>DINAMIS >< ... </b>
+<ul class="list">
+<input type="radio" name="q13" value="a">Aktif
+<br><input type="radio" name="q13" value="b"> Animisme
+<br><input type="radio" name="q13" value="c">Statis
+<br><input type="radio" name="q13" value="d">Ateis
+<br><input type="radio" name="q13" value="e">Efektif
+</ul>
+</div>
+
+<div id="soal14" class="soal">
+14. <b>PELIK >< ... </b>
+<ul class="list">
+<input type="radio" name="q10" value="a">Kecil
+<br><input type="radio" name="q14" value="b">Sederhana
+<br><input type="radio" name="q14" value="c">Besar
+<br><input type="radio" name="q14" value="d">Sukar
+<br><input type="radio" name="q14" value="e">Mewah
+</ul>
+</div>
+
+<div id="soal15" class="soal">
+15. <b>PADAT ><  ... </b>
+<ul class="list">
+<input type="radio" name="q15" value="a">Goyah
+<br><input type="radio" name="q15" value="b">Lembut
+<br><input type="radio" name="q15" value="c">Kenyal
+<br><input type="radio" name="q15" value="d">Padat
+<br><input type="radio" name="q15" value="e">Keras
+</ul>
+</div>
+
+<div id="soal16" class="soal">
+16. <b>RENTA ><... </b>
+<ul class="list">
+<input type="radio" name="q16" value="a">Belia
+<br><input type="radio" name="q16" value="b">Tua	
+<br><input type="radio" name="q16" value="c">Usia
+<br><input type="radio" name="q16" value="d">Lemah
+<br><input type="radio" name="q16" value="e">Kuat
+</ul>
+</div>
+
+<div id="soal17" class="soal">
+17. <b>REMISI >< ... </b>
+<ul class="list">
+<input type="radio" name="q17" value="a">Penambahan
+<br><input type="radio" name="q17" value="b">Pengurangan
+<br><input type="radio" name="q17" value="c">Penetapan
+<br><input type="radio" name="q17" value="d">Perubahan
+<br><input type="radio" name="q17" value="e">Pembetulan
+</ul>
+</div>
+
+<div id="soal18" class="soal">
+18. <b>SUMBANG >< ... </b>
+<ul class="list">
+<input type="radio" name="q18" value="a">Persis
+<br><input type="radio" name="q18" value="b">Tepat
+<br><input type="radio" name="q18" value="c">Laras 
+<br><input type="radio" name="q18" value="d">Melenceng
+<br><input type="radio" name="q18" value="e">Seperti
+</ul>
+</div>
+
+
+<div id="soal19" class="soal">
+19. <b>PASTI ><  ... </b>
+<ul class="list">
+<input type="radio" name="q19" value="a">Tepat
+<br><input type="radio" name="q19" value="b">Ketelitian
+<br><input type="radio" name="q19" value="c">Tentatif 
+<br><input type="radio" name="q19" value="d">Awam
+<br><input type="radio" name="q19" value="e">Kabur
+</ul>
+</div>
+
+
+<div id="soal20" class="soal">
+20. <b>MORTALITAS><... </b>
+<ul class="list">
+<input type="radio" name="q20" value="a">Keterpurukan
+<br><input type="radio" name="q20" value="b">Kematian
+<br><input type="radio" name="q20" value="c">Kedamaian 
+<br><input type="radio" name="q20" value="d">Natalitas
+<br><input type="radio" name="q20" value="e">Aktivitas
+</ul>
+</div>
+
+<div id="divlanjut">
+<center><input class="button" type="button" value=" Lanjut " name="lanjut" onClick="soalLanjut()" /><br></center>
+</div>
+
+<div id="nilai" class="soal">
+<center><font color="red"><b>Hasil Akhir</b></font><br><br>
+Anda menjawab benar <input type="text" class="hasil" size="10"  name="jwBenar" disabled><br>
+Total nilai anda adalah <input id="hasilAkhir"type="text" class="hasil" size="3" name="totNilai" disabled><br><br>
+</div>
+</form>
+</div>
+
+<div class="status"></div>
+
+<div class="footer"><center><h2 style="font-size:13px;">&copy; 2012  Pend. Teknik informatika&trade;<h1></center></div>
+
+<script type="text/javascript">
+timersoal();
+</script>
+</body>
+</html>
